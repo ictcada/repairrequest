@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICTC Equipment Repair Request System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>ICTC Equipment Repair Request System</h1>
+        <p>Welcome to the ICTC Equipment Repair Service Request System. Use the options below to submit a new repair request or view existing requests.</p>
+
+        <div class="dashboard-options">
+            <div class="option-card">
+                <h2>Submit New Request</h2>
+                <p>Create a new service request for equipment repair.</p>
+                <a href="submit.html" class="btn">Submit Request</a>
+            </div>
+
+            <div class="option-card">
+                <h2>View Requests</h2>
+                <p>View and manage all submitted repair requests.</p>
+                <a href="view.html" class="btn">View Requests</a>
+            </div>
+        </div>
+
+        <div class="stats">
+            <h3>Quick Stats</h3>
+            <p id="totalRequests">Total Requests: <span id="requestCount">0</span></p>
+        </div>
+    </div>
+    <script src="dashboard.js"></script>
+</body>
+</html>
